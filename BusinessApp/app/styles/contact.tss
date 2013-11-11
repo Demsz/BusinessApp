@@ -1,0 +1,33 @@
+"Window":{
+backgroundColor: "#ffffff"
+},
+"ScrollView": {
+	top: 0,
+	bottom:26,
+	contentHeight: 'auto'
+},
+"#mapview":{
+	top:10,
+	width:'300dp' ,
+	height: "250dp",
+},
+"#phone":{
+	bottom:10,
+	left:"20dp",
+	
+	width:  Ti.UI.SIZE,
+	height: "20%",
+},
+"#adress":{
+	bottom:30,
+	left:"20dp",
+	
+	width:  Ti.UI.SIZE,
+	height: "30%",
+},
+"#footerView": {
+	bottom: 0,
+	width: 480,
+	height: "10%"
+}
+

@@ -1,0 +1,47 @@
+"Window":{
+backgroundColor: "#ffffff"
+},
+"ScrollView": {
+	top: 0,
+	bottom:26,
+	contentHeight: 'auto'
+},
+
+"#containerView": {
+	width: '90%',
+	height: '100%'
+},
+
+"#contentView": {
+	layout: 'vertical'
+},
+
+".left": {
+	left: 0
+},
+"#sectionTitle":{
+	top: 10,
+	height: Ti.UI.SIZE
+},
+
+".h1": {
+	color: '#54038e',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	}
+},
+
+".h1top": {
+	top:10
+},
+
+".content": {
+	height: Ti.UI.SIZE
+},
+
+"#footerView": {
+	bottom: 0,
+	width: 480,
+	height: "10%"
+}

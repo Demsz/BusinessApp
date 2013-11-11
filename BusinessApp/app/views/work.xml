@@ -1,0 +1,16 @@
+
+<Alloy>
+	<Window id="win0" class="container" title="Work">
+		
+		<View id="containerView">
+			<ScrollView>
+	
+				<TableView id="table">	
+				</TableView>
+
+			</ScrollView>
+		</View>
+		
+		<ImageView id="footerView" />
+	</Window>
+</Alloy>

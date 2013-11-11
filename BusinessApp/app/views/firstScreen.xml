@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="firstScreens">
+		<View id="containerView">
+			<ImageView id="headerView" />
+			<View id="buttonView">
+			<Button class="btn aboutUs" onClick="doClickAboutUs">
+			<Button class="btn work" onClick="doClickWork">
+			<Button class="btn call" onClick="doClickCall">
+			</View>
+		<ImageView id="footerView" />
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,9 @@
+
+<Alloy>
+	<Window platform="ios">
+		<NavigationGroup id="navGroup" platform="ios">
+			<Require src="firstScreen"/>
+		</NavigationGroup>
+	</Window>
+	<Require id="firstScreen" src="firstScreen" platform="android" />
+</Alloy>

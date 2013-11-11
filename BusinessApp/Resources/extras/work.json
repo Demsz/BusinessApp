@@ -1,0 +1,27 @@
+
+{
+   "webs":[
+            {
+               "client":"Be Viacom",
+               "year":"2013",
+               "link":"everafterhigh.nl",
+               "strategy":"...",
+               "imageURL":"/extras/screen1_5.jpg"
+            },
+            {
+               "client":"Decathlon BE",
+               "year":"2013",
+               "link":"facebook.com/decathlonbelgium",
+               "strategy":"Decathlon fans een inzicht geven in de bedrijfscultuur van Decathlon.",
+               "imageURL":"/extras/Decathlon_image01_0.jpg"
+            },
+            {
+               "client":"Rotterdam Festivals",
+               "year":"2013",
+               "link":"facebook.com/worldfoodfestival",
+               "strategy":"...",
+               "imageURL":"/extras/worldfood_images00.jpg"
+            }
+            ]
+         
+}

@@ -1,0 +1,51 @@
+"Window":{
+	width: Ti.UI.FULL,
+	height: Ti.UI.SIZE,
+	backgroundColor:"white"
+},
+"#firstScreen":{
+	navBarHidden: true,
+	exitOnClose: true
+},
+".container": {
+	backgroundColor:"white"
+},
+"#headerView":{
+	width:  Ti.UI.SIZE,
+	height: "20%"
+},
+"#buttonView":{
+	width:  Ti.UI.SIZE,
+	height: "60%",
+	top: 50,
+},
+"#footerView":{
+	bottom: 0,
+	width:  480,
+	height: "10%",
+	image:"/images/bg-splash-00.png"
+	
+},
+".btn": {
+	width: 275,
+	height: 50,
+	borderRadius:5,
+	backgroundImage:"/images/btn-call.png",
+     font: {
+        fontSize: 24,
+        fontWeight: 'bold'
+    
+	}
+},
+".aboutUs":{
+	top:50,
+	title:"About Us"
+},
+".work":{
+	top:120,
+	title:"Work"
+},
+".call":{
+	top: 190,
+	title:"Contact"
+}

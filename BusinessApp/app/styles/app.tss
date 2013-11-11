@@ -1,0 +1,16 @@
+"Window":{
+	backgroundColor: "white",
+	fullscreen: false,
+	navBarHidden: false,
+	barImage: "/images/bg-splash-00.png",
+	orientationModes: [Ti.UI.PORTRAIT]
+},
+"Label":{
+	color: '#000'
+}
+"#footerView": {
+	image: "/images/bg-splash-00.png",
+	bottom: 0,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}

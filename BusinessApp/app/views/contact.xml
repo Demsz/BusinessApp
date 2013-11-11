@@ -1,0 +1,36 @@
+
+
+<Alloy>
+	<Window id="container" title="Contact">
+		
+		<View id="containerView">
+			<ScrollView>
+	
+				<View id="contentView">
+					<Label id="adress" text="Address: Calandstraat 5A, 3016 CA Rotterdam" />
+					<Label id="phone" text="Phone:010 440 0960" />
+					
+					
+					
+					
+				</View>
+				<View id="mapview" ns="Ti.Map" onClick="doClick" onComplete="setRegion"
+			            animate="true" regionFit="true" userLocation="true"
+			            mapType="Ti.Map.STANDARD_TYPE" >
+
+            	<Annotation id="mountainView"
+	              latitude="51.907611" longitude="4.477122"
+	              title="Appcelerator Headquarters" subtitle="Calandstraat"
+	              pincolor="Titanium.Map.ANNOTATION_RED"
+	              leftButton="/images/appcelerator_small.png"
+	              myid="1"/>
+					
+					
+				</View>
+
+			</ScrollView>
+		</View>
+		
+		<ImageView id="footerView" />
+	</Window>
+</Alloy>

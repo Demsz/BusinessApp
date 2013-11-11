@@ -1,0 +1,23 @@
+
+
+<Alloy>
+	<Window id="container" title="Info">
+		
+		<View id="containerView">
+			<ScrollView>
+	
+				<View id="contentView">
+					<Label class="left h1" id="sectionTitle" text="dpdk Buisiness 2013" />
+					<Label class="left content" text="Dpdk is een creatief digitaal bureau dat concepten bedenkt, creëert en ontwikkelt." />
+					<Label class="left content" text="Wij stellen een goed concept en de juiste gebruikerservaring centraal in de relatie tussen onze klanten en hun consumenten."/> 
+					<Label class="left content" text="Door te luisteren, doen waar we goed in zijn en te blijven innoveren, geven we onszelf richting." />
+	
+					
+				</View>
+
+			</ScrollView>
+		</View>
+		
+		<ImageView id="footerView" />
+	</Window>
+</Alloy>
